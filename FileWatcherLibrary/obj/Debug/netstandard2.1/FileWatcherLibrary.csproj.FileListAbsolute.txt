@@ -1,0 +1,10 @@
+C:\Users\Aysel\source\repos\FileWatcher\FileWatcherLibrary\bin\Debug\netstandard2.1\FileWatcherLibrary.deps.json
+C:\Users\Aysel\source\repos\FileWatcher\FileWatcherLibrary\bin\Debug\netstandard2.1\FileWatcherLibrary.dll
+C:\Users\Aysel\source\repos\FileWatcher\FileWatcherLibrary\bin\Debug\netstandard2.1\FileWatcherLibrary.pdb
+C:\Users\Aysel\source\repos\FileWatcher\FileWatcherLibrary\obj\Debug\netstandard2.1\FileWatcherLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aysel\source\repos\FileWatcher\FileWatcherLibrary\obj\Debug\netstandard2.1\FileWatcherLibrary.AssemblyInfoInputs.cache
+C:\Users\Aysel\source\repos\FileWatcher\FileWatcherLibrary\obj\Debug\netstandard2.1\FileWatcherLibrary.AssemblyInfo.cs
+C:\Users\Aysel\source\repos\FileWatcher\FileWatcherLibrary\obj\Debug\netstandard2.1\FileWatcherLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Aysel\source\repos\FileWatcher\FileWatcherLibrary\obj\Debug\netstandard2.1\FileWatcherLibrary.dll
+C:\Users\Aysel\source\repos\FileWatcher\FileWatcherLibrary\obj\Debug\netstandard2.1\FileWatcherLibrary.pdb
+C:\Users\Aysel\source\repos\FileWatcher\FileWatcherLibrary\obj\Debug\netstandard2.1\FileWatcherLibrary.csproj.AssemblyReference.cache
