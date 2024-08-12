@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FileWatcherLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5573dbbfa8553235db8d4a19a6224087307b2218")]
 [assembly: System.Reflection.AssemblyProductAttribute("FileWatcherLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FileWatcherLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

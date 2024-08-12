@@ -1,7 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using System.Data;
 using System.IO;
 using Npgsql;
 using System;
@@ -16,13 +15,22 @@ namespace FileWatcherLibrary
         private Queue<string> _fileQueue;
         private Queue<string> _failedQueue;
         private static readonly object _dbLock = new object();
+        public string _dbConfig;
 
-        public FileMonitor(string folderPath, string logFilePath, Queue<string> fileQueue, Queue<string> failedQueue)
+        public FileMonitor(string folderPath, string logFilePath , string dbConfig)
+        {
+            _logFilePath = logFilePath;
+            _folderPath = folderPath;
+            _dbConfig = dbConfig;
+        }
+
+        public FileMonitor(string folderPath, string logFilePath, Queue<string> fileQueue, Queue<string> failedQueue, string dbConfig)
         {
             _logFilePath = logFilePath;
             _fileQueue = fileQueue;
             _folderPath = folderPath;
             _failedQueue = failedQueue;
+            _dbConfig = dbConfig;
         }
 
         public void Start()
@@ -30,7 +38,7 @@ namespace FileWatcherLibrary
             _watcher = new FileSystemWatcher
             {
                 Path = _folderPath,
-                Filter = "*.*",
+                Filter = "*.wav",
                 NotifyFilter = NotifyFilters.FileName | NotifyFilters.DirectoryName | NotifyFilters.CreationTime,
                 IncludeSubdirectories = true
             };
@@ -47,12 +55,7 @@ namespace FileWatcherLibrary
 
         private async Task OnCreated(object sender, FileSystemEventArgs e)
         {
-            if (Directory.Exists(e.FullPath))
-            {
-
-                LogFolderCreation(e.FullPath);
-            }
-            else if (Path.GetExtension(e.FullPath).Equals(".txt", StringComparison.OrdinalIgnoreCase))
+            if (Path.GetExtension(e.FullPath).Equals(".wav", StringComparison.OrdinalIgnoreCase))
             {
                 Task.Run(() =>
                 {
@@ -61,11 +64,17 @@ namespace FileWatcherLibrary
                         ProcessQueueForFailed();
                     }
                 });
-
-                Task.Run(() =>
+                try
                 {
-                    _fileQueue.Enqueue(e.FullPath);
-                });
+                    Task.Run(() =>
+                    {
+                        _fileQueue.Enqueue(e.FullPath);
+                    });
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.ToString());
+                }
 
                 Task.Run(() =>
                 {
@@ -80,6 +89,10 @@ namespace FileWatcherLibrary
             if (res == true)
             {
                 _fileQueue.Dequeue();
+            }
+            else
+            {
+                _failedQueue.Enqueue(filePath);
             }
         }
         private void ProcessQueueForFailed()
@@ -103,16 +116,21 @@ namespace FileWatcherLibrary
         }
         private void LogFailedFile(string filePath)
         {
-            using (StreamWriter writer = new StreamWriter(_logFilePath, true))
+            string currentDate = DateTime.Now.ToString("yyyy-MM-dd");
+            string logFileName = $"log_{currentDate}.txt";
+            string logFilePath = Path.Combine(_logFilePath, logFileName);
+            using (StreamWriter writer = new StreamWriter(logFilePath, true))
             {
                 writer.WriteLine($"Failed to process file: {filePath} at {DateTime.Now}");
             }
         }
 
-        private bool ParseFileName(string filePath)
+        public bool ParseFileName(string filePath)
 
         {
-            string fileName = Path.GetFileName(filePath);
+            Console.WriteLine($"Parse process start for {filePath}");
+           // string fileName = "[Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav";
+             string fileName = Path.GetFileName(filePath);
 
             string[] parts = fileName.Split('_');
 
@@ -130,6 +148,7 @@ namespace FileWatcherLibrary
             string dateTimeStr = Regex.Match(parts[2], @"(\d{14})").Value;
             string callIdMatch = Regex.Match(parts[2], @"\((\d+)\)").Groups[1].Value;
             string callId = !string.IsNullOrEmpty(callIdMatch) ? callIdMatch : string.Empty;
+
             Model.FileInfo callRecord = new Model.FileInfo
             {
                 CallInfo = callInfo,
@@ -141,36 +160,48 @@ namespace FileWatcherLibrary
                 FilePath = filePath,
                 FolderPath = _folderPath
             };
-            LogFileName(callRecord);
-            return AddFileInfo(callRecord);
+
+            LogException("ParseFileName is working, date:" + DateTime.Now);
+
+            var resp = AddFileInfo(callRecord);
+            if (resp == true)
+            {
+                LogFileName(callRecord);
+                Console.WriteLine(fileName + " completed");
+                return true;
+            }
+
+            return true;
 
         }
 
-        private void LogFileName(Model.FileInfo obj)
+        public void LogFileName(Model.FileInfo obj)
         {
             try
             {
                 var callInfo = obj.CallInfo;
-                var party1 = obj.Part1;
-                var party2 = obj.Part2;
+                var part1 = obj.Part1;
+                var part2 = obj.Part2;
                 var dateTimeStr = obj.DateTimeStr;
                 var callId = obj.CallID;
                 var fileName = obj.FileName;
                 var filePath = obj.FilePath;
                 var folderPath = obj.FolderPath;
+                string currentDate = DateTime.Now.ToString("yyyy-MM-dd");
+                string logFileName = $"log_{currentDate}.txt";
+                string logFilePath = Path.Combine(_logFilePath, logFileName);
 
-                using (StreamWriter sw = new StreamWriter(_logFilePath, true))
+                using (StreamWriter sw = new StreamWriter(logFilePath, true))
                 {
                     sw.WriteLine($"{DateTime.Now}: {fileName} was created.");
                     sw.WriteLine($"CallInfo: {callInfo}");
-                    sw.WriteLine($"Party1: {party1}");
-                    sw.WriteLine($"Party2: {party2}");
+                    sw.WriteLine($"Part1: {part1}");
+                    sw.WriteLine($"Part2: {part2}");
                     sw.WriteLine($"DateTimeStr: {dateTimeStr}");
                     sw.WriteLine($"CallID: {callId}");
                     sw.WriteLine($"FileName: {fileName}");
                     sw.WriteLine($"FilePath: {filePath}");
                     sw.WriteLine($"FolderPath: {folderPath}");
-
                     sw.WriteLine();
                 }
 
@@ -181,31 +212,22 @@ namespace FileWatcherLibrary
             }
 
         }
-        private void LogFolderCreation(string folderPath)
-        {
-            try
-            {
-                using (StreamWriter sw = new StreamWriter(_logFilePath, true))
-                {
-                    sw.WriteLine($"Folder Created: {folderPath}");
-                    sw.WriteLine();
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"An error occurred while logging the folder creation: {ex.Message}");
-            }
-        }
         public bool AddFileInfo(FileWatcherLibrary.Model.FileInfo file)
         {
-            string connectionString = "Host=localhost;Port=5432;Database=FileWatcher;Username=postgres;Password=Aysel123";
-            //string connectionString = "Host=10.0.100.240;Port=5432;Database=dialer;Username=postgres;Password=postgres";
-
-            var con = new NpgsqlConnection(connectionString);
-            lock (_dbLock)
+            LogException("entry of AddFileInfo");
+            string currentDate = DateTime.Now.ToString("yyyy-MM-dd");
+            string logFileName = $"log_{currentDate}.txt";
+            string logFilePath = Path.Combine(_logFilePath, logFileName);
+            using (StreamWriter sw = new StreamWriter(logFilePath, true))
             {
-                try
+                sw.WriteLine($"{DateTime.Now}: {file.FileName} started.");
+            }
+            var con = new NpgsqlConnection(_dbConfig);
+            try
+            {
+                lock (_dbLock)
                 {
+
                     con.Open();
                     var cmd = con.CreateCommand();
                     cmd.CommandText = "INSERT INTO FILEINFO (CallInfo, Part1,Part2,DateTimeStr,FileName,CallID,FilePath,FolderPath) VALUES (@CallInfo, @Part1,@Part2,@DateTimeStr,@FileName,@CallID,@FilePath,@FolderPath)";
@@ -217,19 +239,45 @@ namespace FileWatcherLibrary
                     cmd.Parameters.AddWithValue("@CallID", file.CallID);
                     cmd.Parameters.AddWithValue("@FilePath", file.FilePath);
                     cmd.Parameters.AddWithValue("@FolderPath", file.FolderPath);
-                    cmd.ExecuteNonQuery();
+                    var result = cmd.ExecuteNonQuery();
                     con.Close();
-                    return true;
-                }
-                catch (Exception ex)
-                {
-                    if (con.State == ConnectionState.Open)
+                    using (StreamWriter sw = new StreamWriter(logFilePath, true))
                     {
-                        con.Close();
+                        sw.WriteLine($"{DateTime.Now}: {file.FileName} ended.");
                     }
-                    return false;
+                    return true;
+
                 }
             }
+            catch (Exception ex)
+            {
+                LogException(ex.ToString());
+                return false;
+            }
+
+
+
         }
+
+        public void LogException(string obj)
+        {
+
+            string currentDate = DateTime.Now.ToString("yyyy-MM-dd");
+            string logFileName = $"log_{currentDate}.txt";
+            string logFilePath = Path.Combine(_logFilePath, logFileName);
+
+            using (StreamWriter sw = new StreamWriter(logFilePath, true))
+            {
+                sw.WriteLine($"{obj}: exception");
+
+                sw.WriteLine();
+
+                sw.Flush();
+                sw.Close();
+            }
+
+        }
+
     }
 }
+

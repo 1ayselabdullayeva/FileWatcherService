@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using FileWatcherLibrary;
 using System;
+using System.IO;
 
 namespace FileWatcherConsole
 {
@@ -9,24 +10,24 @@ namespace FileWatcherConsole
     {
         static void Main(string[] args)
         {
-            var configuration = new ConfigurationBuilder()
-                                    .AddJsonFile("appsettings.json")
-                                    .Build();
 
-            string folderPath = configuration["FileSettings:FolderPath"];
-            string logFilePath = configuration["FileSettings:LogFilePath"];
+            var config = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+            .AddJsonFile("C:\\Users\\agilesolutions\\Desktop\\net5.0\\appsettings.json", optional: true, reloadOnChange: true).Build();
+
+            string folderPath = config["FileSettings:FolderPath"];
+            string logFilePath = config["FileSettings:LogFilePath"];
+            string databaseConfig = config["ConnectionStrings:DefaultConnection"];
+
+            WavFileCollector wavFileCollector = new WavFileCollector(new FileMonitor(folderPath, logFilePath, databaseConfig));
+            var resp = wavFileCollector.GetWavFiles(folderPath);
+            wavFileCollector.SaveWavFilesToDatabase(resp);
 
 
-            Queue<string> fileQueue = new Queue<string>();
-            Queue<string> failedQueue = new Queue<string>();
-
-
-            FileMonitor fileMonitor = new FileMonitor(folderPath, logFilePath, fileQueue, failedQueue);
-            fileMonitor.Start();
             Console.WriteLine("Press [enter] to exit...");
             Console.ReadLine();
 
-            fileMonitor.Stop();
+
         }
     }
 }

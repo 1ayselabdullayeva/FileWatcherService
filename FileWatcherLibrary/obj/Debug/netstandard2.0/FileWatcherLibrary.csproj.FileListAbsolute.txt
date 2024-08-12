@@ -8,3 +8,4 @@ C:\Users\Aysel\source\repos\FileWatcher\FileWatcherLibrary\obj\Debug\netstandard
 C:\Users\Aysel\source\repos\FileWatcher\FileWatcherLibrary\obj\Debug\netstandard2.0\FileWatcherLibrary.csproj.CoreCompileInputs.cache
 C:\Users\Aysel\source\repos\FileWatcher\FileWatcherLibrary\obj\Debug\netstandard2.0\FileWatcherLibrary.dll
 C:\Users\Aysel\source\repos\FileWatcher\FileWatcherLibrary\obj\Debug\netstandard2.0\FileWatcherLibrary.pdb
+C:\Users\Aysel\source\repos\FileWatcher\FileWatcherLibrary\obj\Debug\netstandard2.0\FileWatcherLibrary.sourcelink.json

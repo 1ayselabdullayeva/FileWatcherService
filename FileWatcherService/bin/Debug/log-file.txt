@@ -1,0 +1,6 @@
+Service is started,date: 8/8/2024 7:38:40 PM
+Service is stopped,date: 8/8/2024 7:43:42 PM
+Test service is started,date: 8/8/2024 7:48:08 PM
+Test service is started,date: 8/9/2024 1:42:21 PM
+End of start service, fileMonitor.Start();
+,date: 8/9/2024 1:42:33 PM

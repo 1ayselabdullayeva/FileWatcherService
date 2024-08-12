@@ -1,0 +1,16 @@
+ParseFileName is working, date:8/8/2024 9:03:42 PM: exception
+
+ParseFileName is working, date:8/8/2024 9:11:01 PM: exception
+
+entry of AddFileInfo: exception
+
+8/8/2024 9:11:04 PM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\xcv56578 - Copy.txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+

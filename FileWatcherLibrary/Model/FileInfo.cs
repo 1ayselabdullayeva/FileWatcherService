@@ -1,9 +1,7 @@
-﻿
-namespace FileWatcherLibrary.Model
+﻿namespace FileWatcherLibrary.Model
 {
     public class FileInfo
     {
-        public int ID { get; set; }
         public string CallInfo { get; set; }
         public string Part1 { get; set; }
         public string Part2 { get; set; }

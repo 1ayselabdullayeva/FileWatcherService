@@ -15,8 +15,6 @@ C:\Users\Aysel\source\repos\FileWatcher\FileWatcherConsole\obj\Debug\net5.0\File
 C:\Users\Aysel\source\repos\FileWatcher\FileWatcherConsole\obj\Debug\net5.0\ref\FileWatcherConsole.dll
 C:\Users\Aysel\source\repos\FileWatcher\FileWatcherConsole\obj\Debug\net5.0\FileWatcherConsole.pdb
 C:\Users\Aysel\source\repos\FileWatcher\FileWatcherConsole\obj\Debug\net5.0\FileWatcherConsole.genruntimeconfig.cache
-C:\Users\Aysel\source\repos\FileWatcher\FileWatcherConsole\obj\Debug\net5.0\refint\FileWatcherConsole.dll
-C:\Users\Aysel\source\repos\FileWatcher\FileWatcherConsole\obj\Debug\net5.0\FileWatc.917D73B0.Up2Date
 C:\Users\Aysel\source\repos\FileWatcher\FileWatcherConsole\bin\Debug\net5.0\EntityFramework.SqlServer.dll
 C:\Users\Aysel\source\repos\FileWatcher\FileWatcherConsole\bin\Debug\net5.0\EntityFramework.dll
 C:\Users\Aysel\source\repos\FileWatcher\FileWatcherConsole\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
@@ -51,3 +49,12 @@ C:\Users\Aysel\source\repos\FileWatcher\FileWatcherConsole\bin\Debug\net5.0\Syst
 C:\Users\Aysel\source\repos\FileWatcher\FileWatcherConsole\bin\Debug\net5.0\System.Text.Encodings.Web.dll
 C:\Users\Aysel\source\repos\FileWatcher\FileWatcherConsole\bin\Debug\net5.0\System.Text.Json.dll
 C:\Users\Aysel\source\repos\FileWatcher\FileWatcherConsole\bin\Debug\net5.0\System.Threading.Channels.dll
+C:\Users\Aysel\source\repos\FileWatcher\FileWatcherConsole\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Aysel\source\repos\FileWatcher\FileWatcherConsole\bin\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Aysel\source\repos\FileWatcher\FileWatcherConsole\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Aysel\source\repos\FileWatcher\FileWatcherConsole\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Aysel\source\repos\FileWatcher\FileWatcherConsole\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Aysel\source\repos\FileWatcher\FileWatcherConsole\bin\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Aysel\source\repos\FileWatcher\FileWatcherConsole\obj\Debug\net5.0\FileWatcherConsole.sourcelink.json
+C:\Users\Aysel\source\repos\FileWatcher\FileWatcherConsole\obj\Debug\net5.0\FileWatc.917D73B0.Up2Date
+C:\Users\Aysel\source\repos\FileWatcher\FileWatcherConsole\obj\Debug\net5.0\refint\FileWatcherConsole.dll

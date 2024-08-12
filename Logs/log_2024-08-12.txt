@@ -1,0 +1,496 @@
+ParseFileName is working, date:8/12/2024 10:29:14 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\345.txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
+ParseFileName is working, date:8/12/2024 10:29:14 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\cvb67.txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
+ParseFileName is working, date:8/12/2024 10:29:14 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\cxcv34rewfdsertgh.txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
+ParseFileName is working, date:8/12/2024 10:29:14 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\czxce435456.txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
+ParseFileName is working, date:8/12/2024 10:29:14 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\eweaeaeaas.txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
+ParseFileName is working, date:8/12/2024 10:29:14 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\fr5.txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
+ParseFileName is working, date:8/12/2024 10:29:14 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\ghf456tgf.txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
+ParseFileName is working, date:8/12/2024 10:29:14 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\log_2024-08-09.txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
+ParseFileName is working, date:8/12/2024 10:29:14 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\New Text Document (10).txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
+ParseFileName is working, date:8/12/2024 10:29:14 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\New Text Document (11).txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
+ParseFileName is working, date:8/12/2024 10:29:14 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\New Text Document (12).txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
+ParseFileName is working, date:8/12/2024 10:29:14 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\New Text Document (2).txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
+ParseFileName is working, date:8/12/2024 10:29:14 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\New Text Document (3).txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
+ParseFileName is working, date:8/12/2024 10:29:14 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\New Text Document (4).txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
+ParseFileName is working, date:8/12/2024 10:29:14 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\New Text Document (5).txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
+ParseFileName is working, date:8/12/2024 10:29:14 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:14 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\New Text Document (6).txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
+ParseFileName is working, date:8/12/2024 10:29:15 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\New Text Document (7).txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
+ParseFileName is working, date:8/12/2024 10:29:15 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\New Text Document (8).txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
+ParseFileName is working, date:8/12/2024 10:29:15 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\New Text Document (9).txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
+ParseFileName is working, date:8/12/2024 10:29:15 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\New Text Document.txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
+ParseFileName is working, date:8/12/2024 10:29:15 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\s2.txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
+ParseFileName is working, date:8/12/2024 10:29:15 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\sdfsdf (2).txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
+ParseFileName is working, date:8/12/2024 10:29:15 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\sdfsdf.txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
+ParseFileName is working, date:8/12/2024 10:29:15 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\xcfdgvb67.txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
+ParseFileName is working, date:8/12/2024 10:29:15 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\xcv3456uyhgfbvc.txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
+ParseFileName is working, date:8/12/2024 10:29:15 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\xcv56578 - Copy.txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
+ParseFileName is working, date:8/12/2024 10:29:15 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\xcv56578.txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
+ParseFileName is working, date:8/12/2024 10:29:15 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\ythfgkhfgh.txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
+ParseFileName is working, date:8/12/2024 10:29:15 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\zxczxcds.txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
+ParseFileName is working, date:8/12/2024 10:29:15 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\New folder\New Text Document.txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
+ParseFileName is working, date:8/12/2024 10:29:15 AM: exception
+
+entry of AddFileInfo: exception
+
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav started.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav ended.
+8/12/2024 10:29:15 AM: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav was created.
+CallInfo: Dialer%3AMakeCall
+Part1: 0707702777
+Part2: 105
+DateTimeStr: 20240805131501
+CallID: 135
+FileName: [Dialer%3AMakeCall]_0707702777-105_20240805131501(135).wav
+FilePath: C:\Users\Aysel\source\repos\FileWatcher\Location\New folder\New folder\New Text Document.txt
+FolderPath: C:\Users\Aysel\source\repos\FileWatcher\Location
+
